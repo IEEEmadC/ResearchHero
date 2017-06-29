@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Research Hero</string>
+    <string name="research_topic">
+        First, you must identify a field of study that you would like to research.
+        <br />
+        At the student level, you will either be assigned a topic during a course or choose a
+        lab that performs research that interests you.
+        <br />
+        -	Choose a subject that excites you or that you find yourself drawn to.
+        <br />
+        -	Scientific research isn’t limited to just subjects like biology, chemistry, and physics. As long as you follow the scientific method to perform your study you are doing research.
+
+    </string>
+    <string name="radio_yes">Yes</string>
+    <string name="radio_no">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
