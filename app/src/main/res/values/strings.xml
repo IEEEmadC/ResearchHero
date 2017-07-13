@@ -59,6 +59,15 @@
         Don\'t ever Talk to professors or other researchers for them
         to help you identify a question that you could work on.
     </string>
+    <string name="hypothesis_lesson">
+        The researcher generates intermediate hypotheses to describe a solution to the problem.
+        \n\n
+        This is at best a temporary solution since there is as yet no evidence 
+        to support either the acceptance or rejection of these hypotheses.
+    </string>
+    <string name="hypothesis_quiz">
+        Hypothesis is a temporary solution.
+    </string>
     <string name="radio_yes">Yes</string>
     <string name="radio_no">No</string>
 

@@ -32,7 +32,7 @@ public class ResearchMethodActivity extends AppCompatActivity{
             }
         });
 
-        // Find the View that shows the numbers category
+        // Find the View that shows the image circle two
         ImageView researchPurposeImageView = (ImageView) findViewById(R.id.research_purpose_circle_two);
 
         // Set a click listener on that View
@@ -45,7 +45,7 @@ public class ResearchMethodActivity extends AppCompatActivity{
             }
         });
 
-        // Find the View that shows the numbers category
+        // Find the View that shows the image circle three
         ImageView researchQuestionImageView = (ImageView) findViewById(R.id.research_question_circle_three);
 
         // Set a click listener on that View
@@ -55,6 +55,19 @@ public class ResearchMethodActivity extends AppCompatActivity{
             public void onClick(View view) {
                 Intent researchPurposeIntent = new Intent(ResearchMethodActivity.this, LearnResearchQuestionActivity.class);
                 startActivity(researchPurposeIntent);
+            }
+        });
+
+        // Find the View that shows the image circle four
+        ImageView hypothesisImageView = (ImageView) findViewById(R.id.hypothesis_circle_four);
+
+        // Set a click listener on that View
+        hypothesisImageView.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent hypothesisIntent = new Intent(ResearchMethodActivity.this, LearnHypothesisActivity.class);
+                startActivity(hypothesisIntent);
             }
         });
     }

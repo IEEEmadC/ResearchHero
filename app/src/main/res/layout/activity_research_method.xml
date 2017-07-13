@@ -161,7 +161,7 @@
                     android:layout_margin="8dp">
 
                     <ImageView
-                        android:id="@+id/circle4_image"
+                        android:id="@+id/hypothesis_circle_four"
                         android:layout_width="96dp"
                         android:layout_height="96dp"
                         android:layout_centerHorizontal="true"

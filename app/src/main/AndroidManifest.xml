@@ -37,7 +37,8 @@
         <activity
             android:name=".LearnToResearch.LearnResearchPurposeActivity"
             android:label="Research Purpose" />
-        <activity android:name=".LearnToResearch.LearnResearchQuestionActivity"></activity>
+        <activity android:name=".LearnToResearch.LearnResearchQuestionActivity" />
+        <activity android:name=".LearnToResearch.LearnHypothesisActivity"></activity>
     </application>
 
 </manifest>
