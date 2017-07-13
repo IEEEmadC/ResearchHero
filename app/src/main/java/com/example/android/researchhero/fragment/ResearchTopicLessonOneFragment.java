@@ -1,4 +1,4 @@
-package com.example.android.researchhero.LearnToResearch;
+package com.example.android.researchhero.fragment;
 
 
 import android.content.Intent;
@@ -31,6 +31,12 @@ public class ResearchTopicLessonOneFragment extends Fragment {
 
 
         View rootView = inflater.inflate(R.layout.activity_lesson, container, false);
+
+        TextView lessonBodyTextView = (TextView) rootView.findViewById(R.id.lesson_body_text_view);
+        lessonBodyTextView.setText(getString(R.string.research_topic_lesson));
+
+        TextView noticeTextView = (TextView) rootView.findViewById(R.id.notice_text_view);
+        noticeTextView.setText("N.B:\nOnly attempt quiz after reading the lesson with care.");
 
         return rootView;
     }

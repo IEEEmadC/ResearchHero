@@ -5,12 +5,13 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.android.researchhero.R;
+import com.example.android.researchhero.fragment.ResearchTopicLessonOneFragment;
 
 /**
  * Created by absak on 6/28/2017.
  */
 
-public class ResearchTopicLessonOne extends AppCompatActivity{
+public class ResearchTopicLessonOneActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class ResearchTopicLessonOne extends AppCompatActivity{
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent learnMenuIntent = new Intent(ResearchTopicLessonOne.this, ResearchTopicQuizOne.class);
+                Intent learnMenuIntent = new Intent(ResearchTopicLessonOneActivity.this, ResearchTopicQuizOneActivity.class);
                 startActivity(learnMenuIntent);
             }
         });*/

@@ -8,12 +8,14 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.example.android.researchhero.R;
+import com.example.android.researchhero.fragment.ResearchPurposeQuizFragment;
+import com.example.android.researchhero.fragment.ResearchTopicQuizOneFragment;
 
 /**
  * Created by absak on 6/29/2017.
  */
 
-public class ResearchTopicQuizOne extends AppCompatActivity{
+public class ResearchPurposeQuizActivity extends AppCompatActivity{
     private RadioGroup quizRadioGroup;
     private RadioButton radioSubmitButton;
     private Button btnDisplay;
@@ -23,7 +25,7 @@ public class ResearchTopicQuizOne extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson_quiz);
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.container, new ResearchTopicQuizOneFragment())
+                .replace(R.id.container, new ResearchPurposeQuizFragment())
                 .commit();
 
 
@@ -41,10 +43,10 @@ public class ResearchTopicQuizOne extends AppCompatActivity{
                 // get selected radio button from radioGroup
                 int selectedId = quizRadioGroup.getCheckedRadioButtonId();
                 if(selectedId == R.id.radio_no) {
-                    Toast.makeText(ResearchTopicQuizOne.this,
+                    Toast.makeText(ResearchTopicQuizOneActivity.this,
                             "Correct Answer", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(ResearchTopicQuizOne.this,
+                    Toast.makeText(ResearchTopicQuizOneActivity.this,
                             "Wrong Answer", Toast.LENGTH_SHORT).show();
                 }
             }

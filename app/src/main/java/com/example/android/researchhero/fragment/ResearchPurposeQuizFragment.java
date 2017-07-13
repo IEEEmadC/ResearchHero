@@ -1,7 +1,6 @@
-package com.example.android.researchhero.LearnToResearch;
+package com.example.android.researchhero.fragment;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,40 +12,18 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.Toast;
-
 import com.example.android.researchhero.R;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.Toast;
-
-import com.example.android.researchhero.R;
-
-public class ResearchTopicQuizOneFragment extends Fragment {
+public class ResearchPurposeQuizFragment extends Fragment {
     private RadioGroup quizRadioGroup;
     private RadioButton radioSubmitButton;
     private Button btnDisplay;
 
-    public ResearchTopicQuizOneFragment() {
+    public ResearchPurposeQuizFragment() {
         // Required empty public constructor
     }
 
@@ -55,6 +32,9 @@ public class ResearchTopicQuizOneFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.activity_quiz_radio_button, container, false);
+
+        TextView quizQuestionTextView = (TextView) rootView.findViewById(R.id.question_text_view);
+        quizQuestionTextView.setText(getString(R.string.research_purpose_quiz));
 
         // Find the submit button for the quiz
         Button submitButton = (Button) rootView.findViewById(R.id.radio_submit_button);
@@ -72,10 +52,10 @@ public class ResearchTopicQuizOneFragment extends Fragment {
                 int selectedId = quizRadioGroup.getCheckedRadioButtonId();
                 if(selectedId == R.id.radio_no) {
                     Toast.makeText(getActivity(),
-                            "Correct Answer", Toast.LENGTH_SHORT).show();
+                            "Wrong Answer", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(getActivity(),
-                            "Wrong Answer", Toast.LENGTH_SHORT).show();
+                            "Correct Answer", Toast.LENGTH_SHORT).show();
                 }
             }
         });

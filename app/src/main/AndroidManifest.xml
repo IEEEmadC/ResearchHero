@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LearnMenu.LearnActivity"
             android:label="Learn" />
@@ -24,15 +23,20 @@
             android:name=".LearnToResearch.ResearchMethodActivity"
             android:label="ResearchMethod" />
         <activity
-            android:name=".LearnToResearch.LearnResearchTopic"
+            android:name=".LearnToResearch.LearnResearchTopicActivity"
             android:label="LearnResearchTopic" />
         <activity
-            android:name=".LearnToResearch.ResearchTopicLessonOne"
+            android:name=".LearnToResearch.ResearchTopicLessonOneActivity"
             android:label="ResearchTopicLessonOne" />
         <activity
-            android:name=".LearnToResearch.ResearchTopicQuizOne"
+            android:name=".LearnToResearch.ResearchTopicQuizOneActivity"
             android:label="ResearchTopicQuizOne" />
-
+        <activity
+            android:name=".LearnPublishingResearchActivity"
+            android:label="Publish Research" />
+        <activity
+            android:name=".LearnToResearch.LearnResearchPurposeActivity"
+            android:label="Research Purpose"></activity>
     </application>
 
 </manifest>

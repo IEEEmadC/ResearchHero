@@ -9,12 +9,13 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.example.android.researchhero.R;
+import com.example.android.researchhero.adapter.ResearchTopicFragmentPagerAdapter;
 
 /**
  * Created by absak on 6/27/2017.
  */
 
-public class LearnResearchTopic extends AppCompatActivity {
+public class LearnResearchTopicActivity extends AppCompatActivity {
     private RadioGroup quizRadioGroup;
     private RadioButton radioSubmitButton;
     private Button btnDisplay;
@@ -27,7 +28,7 @@ public class LearnResearchTopic extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        LessonQuizFragmentPagerAdapter adapter = new LessonQuizFragmentPagerAdapter(getSupportFragmentManager(), LearnResearchTopic.this);
+        ResearchTopicFragmentPagerAdapter adapter = new ResearchTopicFragmentPagerAdapter(getSupportFragmentManager(), LearnResearchTopicActivity.this);
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
