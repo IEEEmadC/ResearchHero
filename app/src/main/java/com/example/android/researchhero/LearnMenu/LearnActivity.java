@@ -1,10 +1,13 @@
-package com.example.android.researchhero;
+package com.example.android.researchhero.LearnMenu;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
+
+import com.example.android.researchhero.LearnToResearch.ResearchMethodActivity;
+import com.example.android.researchhero.R;
 
 /**
  * Created by absak on 6/27/2017.

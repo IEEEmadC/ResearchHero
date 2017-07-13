@@ -1,4 +1,4 @@
-package com.example.android.researchhero;
+package com.example.android.researchhero.LearnToResearch;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -10,12 +10,12 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 
-public class ResearchTopicFragmentPagerAdapter extends FragmentPagerAdapter {
+public class LessonQuizFragmentPagerAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 2;
     private String tabTitles[] = new String[] { "Lesson 01", "Quiz 01"};
     private Context context;
 
-    public ResearchTopicFragmentPagerAdapter(FragmentManager fm, Context context) {
+    public LessonQuizFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context = context;
     }

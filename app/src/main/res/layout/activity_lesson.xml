@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".LearnResearchTopic">
+    tools:context=".LearnToResearch.LearnResearchTopic">
 
     <RelativeLayout
         android:id="@+id/concept_layout"
@@ -50,16 +50,6 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/continue_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/concept_layout"
-        android:layout_margin="8dp"
-        android:background="#4caf50"
-        android:padding="16dp"
-        android:text="Continue"
-        android:textColor="#FFFFFF" />
+
 
 </RelativeLayout>
