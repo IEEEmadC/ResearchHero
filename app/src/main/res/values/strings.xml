@@ -137,6 +137,18 @@
     <string name="experiment_quiz">
         To test different variables, you don\'t need to perform any experiments.
     </string>
+    <string name="analysis_lesson">
+        Analyze the raw data. For most experiments, you will be given a raw data
+        output of numbers. Depending on the study, you will transfer these numbers
+        into another program to make graphs and compare the various groups. 
+        \n\n
+        It’s important to pay close attention to the data when moving it between programs. 
+        \n\n
+        -	Take care to avoid copying and pasting rows or columns of data incorrectly.
+    </string>
+    <string name="analysis_quiz">
+        To avoid copying and pasting rows or columns of data incorrectly, pay no attention.
+    </string>
     <string name="radio_yes">Yes</string>
     <string name="radio_no">No</string>
 

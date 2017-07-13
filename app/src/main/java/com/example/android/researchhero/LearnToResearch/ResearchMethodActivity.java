@@ -71,16 +71,16 @@ public class ResearchMethodActivity extends AppCompatActivity{
             }
         });
 
-        // Find the View that shows the image circle five
-        ImageView experimentImageView = (ImageView) findViewById(R.id.experiment_circle_five);
+        // Find the View that shows the image circle six
+        ImageView analysisImageView = (ImageView) findViewById(R.id.analysis_circle_six);
 
         // Set a click listener on that View
-        experimentImageView.setOnClickListener(new View.OnClickListener() {
+        analysisImageView.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent experimentIntent = new Intent(ResearchMethodActivity.this, LearnExperimentActivity.class);
-                startActivity(experimentIntent);
+                Intent analysisIntent = new Intent(ResearchMethodActivity.this, LearnAnalysisActivity.class);
+                startActivity(analysisIntent);
             }
         });
     }
