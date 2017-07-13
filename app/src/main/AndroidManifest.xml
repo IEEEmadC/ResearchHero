@@ -37,8 +37,15 @@
         <activity
             android:name=".LearnToResearch.LearnResearchPurposeActivity"
             android:label="Research Purpose" />
-        <activity android:name=".LearnToResearch.LearnResearchQuestionActivity" />
-        <activity android:name=".LearnToResearch.LearnHypothesisActivity"></activity>
+        <activity
+            android:name=".LearnToResearch.LearnResearchQuestionActivity"
+            android:label="Research Question" />
+        <activity
+            android:name=".LearnToResearch.LearnHypothesisActivity"
+            android:label="Hypothesis" />
+        <activity
+            android:name=".LearnToResearch.LearnExperimentActivity"
+            android:label="Experiment"></activity>
     </application>
 
 </manifest>

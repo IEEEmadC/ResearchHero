@@ -203,7 +203,7 @@
                     android:layout_margin="8dp">
 
                     <ImageView
-                        android:id="@+id/circle5_image"
+                        android:id="@+id/experiment_circle_five"
                         android:layout_width="96dp"
                         android:layout_height="96dp"
                         android:layout_centerHorizontal="true"

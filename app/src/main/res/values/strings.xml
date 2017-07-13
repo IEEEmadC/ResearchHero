@@ -68,6 +68,75 @@
     <string name="hypothesis_quiz">
         Hypothesis is a temporary solution.
     </string>
+    <string name="experiment_lesson">
+        1.	Determine the sample size. In order for your experiment to be meaningful,
+        you need to have an experimental sample size large enough to perform statistical
+        analyses on. In order to determine this, you need to know some information about
+        your experimental population and use a power analysis calculator.
+        \n\n
+        -	To use a power analysis, you need to have an estimate of the effect size,
+        an estimation of the variability within the data (standard deviation), the level
+        of significance (standard convention is p=0.05), and power (the rate of false
+        negatives you are willing to accept, generally set at 80%).
+        \n\n
+        -	Running smaller pilot studies can help you gather the necessary information
+        for a proper power analysis to calculate sample size.
+        \n\n
+        -	 If you don’t have the means to do a pilot study, use some rough estimations
+        based on information you have gathered from the literature.
+        \n\n
+        2.	Identify all of the necessary solutions and equipment. When designing the experiment,
+        you need to know all of the solutions you will need to use and the type of equipment
+        you will need access to. Many universities have core facilities with instruments
+        you can use if your specific lab does not have all of the equipment necessary. 
+        \n\n
+        -	You may need to be trained on the equipment and develop the proper expertise
+        before you can start your experiments. Keep this in mind when planning a timeline.
+        \n\n
+        -	If you don’t have access to the necessary equipment, you might consider working
+        with collaborators who have the equipment and expertise.
+        \n\n
+        3.	State all experimental conditions. The key to a well-designed experiment is to
+        have a manageable number of testable conditions.[10] If you are doing a drug study,
+        you probably want to test different dosages, but you don’t want too many. You will
+        likely have to do a few smaller experiments to optimize the test conditions you will
+        use in the final experiments. 
+        \n\n
+        -	Literature searches can help you identify time points, dosages, and 
+        treatment conditions relevant to your studies.
+        \n\n
+        4.	Include the necessary controls. Experimental data is useless without the proper
+        control conditions to compare them to. A control is a condition that is kept constant
+        and used to measure the change of the experimental condition.
+        \n\n
+        -	A proper experiment has only one variable and multiple controls to ensure
+        that any changes seen in the results are due specifically to the variable
+        that was changed.
+        \n\n
+        -	To test different variables, you will need to perform multiple experiments.
+        \n\n
+        5.	Define the experimental outcomes. In research you must identify and define
+        what the outcome is for your study.[12] You also want to define what you consider
+        “success” of an experiment. If you are studying a biological process, the outcome
+        may be the measure of the amount of a specific protein produced. 
+        \n\n
+        -	The outcomes must be measurable with consistency or they will not produce usable data.
+        \n\n
+        -	All statistical analyses to be used for the study should be established 
+        before data collection.
+        \n\n
+        6.	Write up the experimental protocol. After completing the overall design
+        of the experiment, write up a detailed protocol that includes every condition
+        to be tested and all the necessary calculations. Performing the experiment is
+        much simpler when you have done all of planning before you begin. 
+        \n\n
+        -	The more detailed you make the protocol, the easier it will be to follow 
+        and repeat the experiment later.
+
+    </string>
+    <string name="experiment_quiz">
+        To test different variables, you don\'t need to perform any experiments.
+    </string>
     <string name="radio_yes">Yes</string>
     <string name="radio_no">No</string>
 
