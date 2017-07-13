@@ -44,6 +44,19 @@ public class ResearchMethodActivity extends AppCompatActivity{
                 startActivity(researchPurposeIntent);
             }
         });
+
+        // Find the View that shows the numbers category
+        ImageView researchQuestionImageView = (ImageView) findViewById(R.id.research_question_circle_three);
+
+        // Set a click listener on that View
+        researchQuestionImageView.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent researchPurposeIntent = new Intent(ResearchMethodActivity.this, LearnResearchQuestionActivity.class);
+                startActivity(researchPurposeIntent);
+            }
+        });
     }
 }
 

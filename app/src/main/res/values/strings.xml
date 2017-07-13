@@ -34,6 +34,31 @@
         Question: \n
         In the research process, the purpose is usually stated after the problem.
     </string>
+    <string name="research_question_lesson">
+        The research question will be the main focus of your study. 
+        Once you have a chosen a topic that interests you, investigate some of the
+        unanswered questions within that field. The research question should be based in
+        a field that you have some familiarity with. You can have more than one research
+        question for a scientific study.
+        \n\n
+        -	Do a brief literature search to familiarize yourself with what
+        information is already out there and what unanswered questions there are.
+        \n\n
+        -	Make sure you have the necessary resources available to 
+        you (funding and laboratory equipment) to work on the question.
+        \n\n
+        -	Talk to professors or other researchers and have them help you identify
+        a question that you could work on.
+        \n\n
+        -	Many articles will state some of the unanswered questions and
+        speculate on future directions or suggest experiments that will be
+        necessary in the future. Use these as a springboard for your own ideas.
+    </string>
+    <string name="research_question_quiz">
+        Question: \n
+        Don\'t ever Talk to professors or other researchers for them
+        to help you identify a question that you could work on.
+    </string>
     <string name="radio_yes">Yes</string>
     <string name="radio_no">No</string>
 

@@ -36,7 +36,8 @@
             android:label="Publish Research" />
         <activity
             android:name=".LearnToResearch.LearnResearchPurposeActivity"
-            android:label="Research Purpose"></activity>
+            android:label="Research Purpose" />
+        <activity android:name=".LearnToResearch.LearnResearchQuestionActivity"></activity>
     </application>
 
 </manifest>

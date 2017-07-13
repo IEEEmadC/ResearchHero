@@ -113,7 +113,7 @@
                     android:layout_margin="8dp">
 
                     <ImageView
-                        android:id="@+id/circle3_image"
+                        android:id="@+id/research_question_circle_three"
                         android:layout_width="96dp"
                         android:layout_height="96dp"
                         android:layout_centerHorizontal="true"
