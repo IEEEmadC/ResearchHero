@@ -149,6 +149,13 @@
     <string name="analysis_quiz">
         To avoid copying and pasting rows or columns of data incorrectly, pay no attention.
     </string>
+    <string name="conclusion_lesson">
+        The researcher interprets the newly analyzed data and suggests a conclusion.
+        The data will either support the hypotheses or they won’t.
+    </string>
+    <string name="conclusion_quiz">
+        The data will always support the hypothesis.
+    </string>
     <string name="radio_yes">Yes</string>
     <string name="radio_no">No</string>
 

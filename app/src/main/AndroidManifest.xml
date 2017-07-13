@@ -48,7 +48,10 @@
             android:label="Experiment" />
         <activity
             android:name=".LearnToResearch.LearnAnalysisActivity"
-            android:label="Analysis"></activity>
+            android:label="Analysis" />
+        <activity
+            android:name=".LearnToResearch.LearnConclusionActivity"
+            android:label="Conclusion"></activity>
     </application>
 
 </manifest>
