@@ -19,6 +19,7 @@ Promo Image:
 
 
 Demo Video:
+https://youtu.be/e4RHUEacoK0
 
 Keywords:
 Research, IEEE, MIT LICENSE, IEEERegion10, IEEE BDS, IEEE IIUC Student Branch
