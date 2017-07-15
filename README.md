@@ -15,6 +15,7 @@ Some unique features of the app:
 3.	First ever interactive app focused only on learning Research 
 
 Promo Image: 
+![research_hero_promo_image](https://user-images.githubusercontent.com/10285584/28237261-29dfe26e-695d-11e7-8ab9-9bfbd61b835d.PNG)
 
 
 Demo Video:
