@@ -21,10 +21,10 @@
             android:label="Learn" />
         <activity
             android:name=".LearnToResearch.ResearchMethodActivity"
-            android:label="ResearchMethod" />
+            android:label="Research Method" />
         <activity
             android:name=".LearnToResearch.LearnResearchTopicActivity"
-            android:label="LearnResearchTopic" />
+            android:label="Learn Research Topic" />
         <activity
             android:name=".LearnToResearch.ResearchTopicLessonOneActivity"
             android:label="ResearchTopicLessonOne" />
@@ -51,7 +51,9 @@
             android:label="Analysis" />
         <activity
             android:name=".LearnToResearch.LearnConclusionActivity"
-            android:label="Conclusion"></activity>
+            android:label="Conclusion" />
+        <activity android:name=".AboutUsActivity"
+            android:label="About Us"/>
     </application>
 
 </manifest>
