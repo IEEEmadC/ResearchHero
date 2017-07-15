@@ -18,13 +18,32 @@
         </activity>
         <activity
             android:name=".LearnMenu.LearnActivity"
-            android:label="Learn" />
+            android:label="Learn"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".LearnToResearch.ResearchMethodActivity"
-            android:label="Research Method" />
+            android:label="Research Method"
+            android:parentActivityName=".LearnMenu.LearnActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LearnMenu.LearnActivity" />
+        </activity>
         <activity
             android:name=".LearnToResearch.LearnResearchTopicActivity"
-            android:label="Learn Research Topic" />
+            android:label="Learn Research Topic"
+            android:parentActivityName=".LearnToResearch.ResearchMethodActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LearnToResearch.ResearchMethodActivity" />
+        </activity>
+
         <activity
             android:name=".LearnToResearch.ResearchTopicLessonOneActivity"
             android:label="ResearchTopicLessonOne" />
@@ -52,8 +71,15 @@
         <activity
             android:name=".LearnToResearch.LearnConclusionActivity"
             android:label="Conclusion" />
-        <activity android:name=".AboutUsActivity"
-            android:label="About Us"/>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
