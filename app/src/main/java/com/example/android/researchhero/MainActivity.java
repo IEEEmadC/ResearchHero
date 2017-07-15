@@ -1,6 +1,7 @@
 package com.example.android.researchhero;
 
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -8,12 +9,15 @@ import android.view.View;
 
 import com.example.android.researchhero.LearnMenu.LearnActivity;
 
+import static android.app.PendingIntent.getActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         // Find the View that shows the numbers category
         CardView learnCardView = (CardView) findViewById(R.id.learn_card_view);
@@ -27,5 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(menuIntent);
             }
         });
+
     }
 }
