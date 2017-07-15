@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/quiz_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e0e0e0">
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="sample question"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:padding="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bdbdbd"
+            android:layout_margin="16dp">
+            <RadioGroup
+                android:layout_below="@id/question_text_view"
+                android:id="@+id/quiz_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <RadioButton
+                    android:id="@+id/radio_yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_yes"
+                    android:buttonTint="@color/green"/>
+
+                <RadioButton
+                    android:id="@+id/radio_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_no"
+                    android:buttonTint="@color/green"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@id/quiz_container"
+        android:id="@+id/radio_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:background="@color/green"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
